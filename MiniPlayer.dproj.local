@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/09/21 20:14:48.000.346,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\OptionForm.dfm=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit4.dfm</Transaction>
+    <Transaction>2013/09/21 20:14:48.000.346,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\OptionForm.pas=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit4.pas</Transaction>
+    <Transaction>2013/09/21 20:15:25.000.512,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\MainForm.pas=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit1.pas</Transaction>
+    <Transaction>2013/09/21 20:15:25.000.512,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\MainForm.dfm=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit1.dfm</Transaction>
+    <Transaction>2013/09/21 20:15:47.000.318,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\BackGroundPorcessing.dfm=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit2.dfm</Transaction>
+    <Transaction>2013/09/21 20:15:47.000.318,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\BackGroundPorcessing.pas=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit2.pas</Transaction>
+    <Transaction>2013/09/21 20:16:13.000.563,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit2.pas=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\BackGroundPorcessing.pas</Transaction>
+    <Transaction>2013/09/21 20:16:13.000.563,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit2.dfm=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\BackGroundPorcessing.dfm</Transaction>
+    <Transaction>2013/09/21 20:16:22.000.118,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit1.pas=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\MainForm.pas</Transaction>
+    <Transaction>2013/09/21 20:16:22.000.118,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit1.dfm=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\MainForm.dfm</Transaction>
+    <Transaction>2013/09/21 20:16:28.000.998,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit4.pas=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\OptionForm.pas</Transaction>
+    <Transaction>2013/09/21 20:16:28.000.998,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Unit4.dfm=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\OptionForm.dfm</Transaction>
+    <Transaction>2013/09/22 16:34:21.000.460,=D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\tags.pas</Transaction>
+    <Transaction>2013/10/02 18:54:00.000.775,D:\Personal Files\Work Files\Project\GitHub\MiniPlayer\Visual1.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="bass.pas"/>
+    <File Path="IniReader.pas"/>
+    <File Path="MFunc.pas"/>
+    <File Path="MVars.pas"/>
+    <File Path="UI.pas"/>
+    <File Path="tags.pas"/>
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

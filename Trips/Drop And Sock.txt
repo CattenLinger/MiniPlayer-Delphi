@@ -1,0 +1,38 @@
+var // form level
+   StartingPoint : TPoint;
+
+implementation
+
+...
+
+procedure TForm1.FormCreate(Sender: TObject) ;
+begin
+   ListBox1.DragMode := dmAutomatic;
+end;
+
+procedure TForm1.ListBox1DragDrop(Sender, Source: TObject; X, Y: Integer) ;
+var
+   DropPosition, StartPosition: Integer;
+   DropPoint: TPoint;
+begin
+   DropPoint.X := X;
+   DropPoint.Y := Y;
+   with Source as TListBox do
+   begin
+     StartPosition := ItemAtPos(StartingPoint,True) ;
+     DropPosition := ItemAtPos(DropPoint,True) ;
+
+     Items.Move(StartPosition, DropPosition) ;
+   end;
+end;
+
+procedure TForm1.ListBox1DragOver(Sender, Source: TObject; X, Y: Integer; State: TDragState; var Accept: Boolean) ;
+begin
+   Accept := Source = ListBox1;
+end;
+
+procedure TForm1.ListBox1MouseDown(Sender: TObject; Button: TMouseButton; Shift: TShiftState; X, Y: Integer) ;
+begin
+   StartingPoint.X := X;
+   StartingPoint.Y := Y;
+end;
